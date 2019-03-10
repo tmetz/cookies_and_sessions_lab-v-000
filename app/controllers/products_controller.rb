@@ -1,8 +1,10 @@
 class ProductsController < ActionController::Base
   def index
-    @cart = session[:cart_id]
+    @cart = cart
   end
 
   def add
   end
+
+
 end
